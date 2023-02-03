@@ -1,0 +1,31 @@
+{
+  "name": "productdevbook",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "turbo": "^1.7.2"
+  },
+  "resolutions": {
+    "vue": "3.2.47",
+    "vue-bundle-renderer": "1.0.0",
+    "@vue/runtime-core": "3.2.47",
+    "@vue/server-renderer": "3.2.47",
+    "@vee-validate/zod": "4.7.3",
+    "vee-validate": "4.7.3",
+    "zod": "3.20.2"
+  },
+  "packageManager": "pnpm@7.26.3"
+}
