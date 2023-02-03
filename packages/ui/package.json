@@ -1,5 +1,5 @@
 {
-    "name": "@vucod/ui",
+    "name": "ui",
     "version": "0.0.0",
     "main": "./index.ts",
     "types": "./index.ts",
@@ -14,8 +14,5 @@
         "vue": "3.2.45",
         "vue-router": "^4.1.6",
         "zod": "^3.20.2"
-    },
-    "dependencies": {
-        "@vucod/lib": "workspace:^0.0.0"
     }
 }
