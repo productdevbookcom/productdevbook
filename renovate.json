@@ -1,0 +1,76 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base"
+  ],
+  "rebaseWhen": "conflicted",
+  "schedule": [
+    "before 6am on the first day of the month"
+  ],
+  "baseBranches": [
+    "main"
+  ],
+  "rangeStrategy": "bump",
+  "packageRules": [
+    {
+      "matchPaths": [
+        "apps/web/**"
+      ],
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchUpdateTypes": [
+        "patch",
+        "minor",
+        "major"
+      ],
+      "groupName": "web",
+      "labels": [
+        "web"
+      ],
+      "addLabels": [
+        "web"
+      ]
+    },
+    {
+      "matchPaths": [
+        "packages/storybook/**"
+      ],
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchUpdateTypes": [
+        "patch",
+        "minor",
+        "major"
+      ],
+      "groupName": "storybook",
+      "labels": [
+        "storybook"
+      ],
+      "addLabels": [
+        "storybook"
+      ]
+    },
+    {
+      "matchPaths": [
+        "packages/tailwindcss-config/**"
+      ],
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchUpdateTypes": [
+        "patch",
+        "minor",
+        "major"
+      ],
+      "groupName": "tailwindcss-config",
+      "labels": [
+        "tailwindcss-config"
+      ],
+      "addLabels": [
+        "tailwindcss-config"
+      ]
+    }
+  ]
+}
