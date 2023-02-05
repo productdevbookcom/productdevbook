@@ -71,6 +71,26 @@
       "addLabels": [
         "tailwindcss-config"
       ]
+    },
+    {
+      "matchPaths": [
+        "packages.json"
+      ],
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchUpdateTypes": [
+        "patch",
+        "minor",
+        "major"
+      ],
+      "groupName": "core",
+      "labels": [
+        "core"
+      ],
+      "addLabels": [
+        "core"
+      ]
     }
   ]
 }
