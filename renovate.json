@@ -74,7 +74,8 @@
     },
     {
       "matchPaths": [
-        "package.json"
+        "!apps/**",
+        "!packages/**"
       ],
       "matchDatasources": [
         "npm"
