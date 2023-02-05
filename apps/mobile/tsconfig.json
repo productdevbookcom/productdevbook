@@ -14,5 +14,14 @@
     "noEmit": true
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "src/**/*.spec.ts",
+    "src/**/*.spec.tsx",
+    "src/**/*.spec.js",
+    "src/**/*.spec.jsx",
+    "@types/react"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

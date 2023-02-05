@@ -1,0 +1,7 @@
+{
+    "name": "productdevbook",
+    "integrations": {
+        "capacitor": {}
+    },
+    "type": "custom"
+}
