@@ -1,0 +1,30 @@
+html,body,#__nuxt{
+    @apply h-full w-full bg-[#1A0C0C] text-white;
+}
+
+.background {
+    @apply w-full h-full bg-gradient-to-tr from-red-500/10 via-black/5 to-red-500/10;
+
+    .patterns{
+        @apply h-full w-full select-none;
+        .pattern{
+            @apply absolute;
+            &:nth-child(1) {
+                @apply left-1/4 opacity-10;
+            }
+            &:nth-child(2) {
+                @apply opacity-20;
+            }
+            &:nth-child(3) {
+                @apply -bottom-24 rotate-12 h-64 w-64 opacity-5;
+            }
+        }
+    }
+
+    .noise {
+        @apply w-full h-full fixed opacity-50;
+        mix-blend-mode: overlay;
+        background: url('background.png') repeat;
+    }
+}
+

@@ -8,6 +8,9 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxt/devtools": "^0.1.4",
+    "@nuxtjs/tailwindcss": "^6.4.1",
+    "@vue-macros/nuxt": "^1.1.2",
     "nuxt": "^3.2.2"
   },
   "dependencies": {
