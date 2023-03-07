@@ -13,7 +13,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=v18.15.0"
   },
   "devDependencies": {
     "turbo": "^1.8.1"
