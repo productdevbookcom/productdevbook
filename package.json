@@ -16,16 +16,16 @@
     "node": ">=18.0.0"
   },
   "devDependencies": {
-    "turbo": "^1.8.1"
+    "turbo": "^1.8.3"
   },
   "resolutions": {
     "vue": "3.2.47",
     "vue-bundle-renderer": "1.0.2",
     "@vue/runtime-core": "3.2.47",
     "@vue/server-renderer": "3.2.47",
-    "@vee-validate/zod": "4.7.4",
-    "vee-validate": "4.7.4",
-    "zod": "3.20.6"
+    "@vee-validate/zod": "4.8.1",
+    "vee-validate": "4.8.1",
+    "zod": "3.21.4"
   },
-  "packageManager": "pnpm@7.27.1"
+  "packageManager": "pnpm@7.29.2"
 }
